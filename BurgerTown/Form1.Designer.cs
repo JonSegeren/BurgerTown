@@ -48,6 +48,8 @@
             this.taxStat = new System.Windows.Forms.Label();
             this.taxTotalLabel = new System.Windows.Forms.Label();
             this.grandTotalOutput = new System.Windows.Forms.Label();
+            this.subTotalStat = new System.Windows.Forms.Label();
+            this.subTotalOut = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tacoInput
@@ -73,7 +75,7 @@
             // 
             // changeInput
             // 
-            this.changeInput.Location = new System.Drawing.Point(137, 326);
+            this.changeInput.Location = new System.Drawing.Point(137, 344);
             this.changeInput.Name = "changeInput";
             this.changeInput.Size = new System.Drawing.Size(72, 20);
             this.changeInput.TabIndex = 3;
@@ -124,7 +126,7 @@
             // cashLabel
             // 
             this.cashLabel.AutoSize = true;
-            this.cashLabel.Location = new System.Drawing.Point(31, 333);
+            this.cashLabel.Location = new System.Drawing.Point(30, 347);
             this.cashLabel.Name = "cashLabel";
             this.cashLabel.Size = new System.Drawing.Size(83, 13);
             this.cashLabel.TabIndex = 9;
@@ -133,7 +135,7 @@
             // changeStag
             // 
             this.changeStag.AutoSize = true;
-            this.changeStag.Location = new System.Drawing.Point(35, 370);
+            this.changeStag.Location = new System.Drawing.Point(35, 381);
             this.changeStag.Name = "changeStag";
             this.changeStag.Size = new System.Drawing.Size(70, 13);
             this.changeStag.TabIndex = 11;
@@ -141,7 +143,7 @@
             // 
             // changeOutput
             // 
-            this.changeOutput.Location = new System.Drawing.Point(134, 370);
+            this.changeOutput.Location = new System.Drawing.Point(134, 375);
             this.changeOutput.Name = "changeOutput";
             this.changeOutput.Size = new System.Drawing.Size(75, 24);
             this.changeOutput.TabIndex = 12;
@@ -174,6 +176,7 @@
             this.button3.TabIndex = 15;
             this.button3.Text = "Recipt";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -187,7 +190,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 298);
+            this.label1.Location = new System.Drawing.Point(39, 319);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 17;
@@ -196,7 +199,7 @@
             // taxStat
             // 
             this.taxStat.AutoSize = true;
-            this.taxStat.Location = new System.Drawing.Point(39, 265);
+            this.taxStat.Location = new System.Drawing.Point(49, 289);
             this.taxStat.Name = "taxStat";
             this.taxStat.Size = new System.Drawing.Size(28, 13);
             this.taxStat.TabIndex = 18;
@@ -204,7 +207,7 @@
             // 
             // taxTotalLabel
             // 
-            this.taxTotalLabel.Location = new System.Drawing.Point(131, 265);
+            this.taxTotalLabel.Location = new System.Drawing.Point(131, 284);
             this.taxTotalLabel.Name = "taxTotalLabel";
             this.taxTotalLabel.Size = new System.Drawing.Size(78, 23);
             this.taxTotalLabel.TabIndex = 19;
@@ -212,17 +215,36 @@
             // 
             // grandTotalOutput
             // 
-            this.grandTotalOutput.Location = new System.Drawing.Point(149, 298);
+            this.grandTotalOutput.Location = new System.Drawing.Point(134, 319);
             this.grandTotalOutput.Name = "grandTotalOutput";
             this.grandTotalOutput.Size = new System.Drawing.Size(73, 25);
             this.grandTotalOutput.TabIndex = 20;
             this.grandTotalOutput.Text = " ";
+            // 
+            // subTotalStat
+            // 
+            this.subTotalStat.AutoSize = true;
+            this.subTotalStat.Location = new System.Drawing.Point(39, 261);
+            this.subTotalStat.Name = "subTotalStat";
+            this.subTotalStat.Size = new System.Drawing.Size(49, 13);
+            this.subTotalStat.TabIndex = 21;
+            this.subTotalStat.Text = "Subtotal:";
+            // 
+            // subTotalOut
+            // 
+            this.subTotalOut.Location = new System.Drawing.Point(134, 251);
+            this.subTotalOut.Name = "subTotalOut";
+            this.subTotalOut.Size = new System.Drawing.Size(59, 28);
+            this.subTotalOut.TabIndex = 22;
+            this.subTotalOut.Text = " ";
             // 
             // taxOutput
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(454, 437);
+            this.Controls.Add(this.subTotalOut);
+            this.Controls.Add(this.subTotalStat);
             this.Controls.Add(this.grandTotalOutput);
             this.Controls.Add(this.taxTotalLabel);
             this.Controls.Add(this.taxStat);
@@ -272,6 +294,8 @@
         private System.Windows.Forms.Label taxStat;
         private System.Windows.Forms.Label taxTotalLabel;
         private System.Windows.Forms.Label grandTotalOutput;
+        private System.Windows.Forms.Label subTotalStat;
+        private System.Windows.Forms.Label subTotalOut;
     }
 }
 
