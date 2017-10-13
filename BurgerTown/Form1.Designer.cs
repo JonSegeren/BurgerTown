@@ -1,6 +1,6 @@
 ﻿namespace BurgerTown
 {
-    partial class taxOutput
+    partial class form1
     {
         /// <summary>
         /// Required designer variable.
@@ -57,28 +57,28 @@
             this.tacoInput.Location = new System.Drawing.Point(137, 40);
             this.tacoInput.Name = "tacoInput";
             this.tacoInput.Size = new System.Drawing.Size(72, 20);
-            this.tacoInput.TabIndex = 0;
+            this.tacoInput.TabIndex = 1;
             // 
             // burritoInput
             // 
             this.burritoInput.Location = new System.Drawing.Point(137, 90);
             this.burritoInput.Name = "burritoInput";
             this.burritoInput.Size = new System.Drawing.Size(72, 20);
-            this.burritoInput.TabIndex = 1;
+            this.burritoInput.TabIndex = 2;
             // 
             // fryInput
             // 
             this.fryInput.Location = new System.Drawing.Point(137, 137);
             this.fryInput.Name = "fryInput";
             this.fryInput.Size = new System.Drawing.Size(72, 20);
-            this.fryInput.TabIndex = 2;
+            this.fryInput.TabIndex = 3;
             // 
             // changeInput
             // 
             this.changeInput.Location = new System.Drawing.Point(137, 344);
             this.changeInput.Name = "changeInput";
             this.changeInput.Size = new System.Drawing.Size(72, 20);
-            this.changeInput.TabIndex = 3;
+            this.changeInput.TabIndex = 6;
             // 
             // drinkInput
             // 
@@ -153,7 +153,7 @@
             this.button1.Location = new System.Drawing.Point(52, 220);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 23);
-            this.button1.TabIndex = 13;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Calculate Totals";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -163,7 +163,7 @@
             this.changeDue.Location = new System.Drawing.Point(38, 402);
             this.changeDue.Name = "changeDue";
             this.changeDue.Size = new System.Drawing.Size(75, 23);
-            this.changeDue.TabIndex = 14;
+            this.changeDue.TabIndex = 7;
             this.changeDue.Text = "Change";
             this.changeDue.UseVisualStyleBackColor = true;
             this.changeDue.Click += new System.EventHandler(this.changeDue_Click);
@@ -173,7 +173,7 @@
             this.button3.Location = new System.Drawing.Point(134, 402);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 15;
+            this.button3.TabIndex = 8;
             this.button3.Text = "Recipt";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -183,9 +183,10 @@
             this.button4.Location = new System.Drawing.Point(275, 402);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(107, 23);
-            this.button4.TabIndex = 16;
+            this.button4.TabIndex = 9;
             this.button4.Text = "New Order";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
@@ -207,7 +208,7 @@
             // 
             // taxTotalLabel
             // 
-            this.taxTotalLabel.Location = new System.Drawing.Point(131, 284);
+            this.taxTotalLabel.Location = new System.Drawing.Point(134, 289);
             this.taxTotalLabel.Name = "taxTotalLabel";
             this.taxTotalLabel.Size = new System.Drawing.Size(78, 23);
             this.taxTotalLabel.TabIndex = 19;
@@ -238,10 +239,11 @@
             this.subTotalOut.TabIndex = 22;
             this.subTotalOut.Text = " ";
             // 
-            // taxOutput
+            // form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(454, 437);
             this.Controls.Add(this.subTotalOut);
             this.Controls.Add(this.subTotalStat);
@@ -265,7 +267,7 @@
             this.Controls.Add(this.fryInput);
             this.Controls.Add(this.burritoInput);
             this.Controls.Add(this.tacoInput);
-            this.Name = "taxOutput";
+            this.Name = "form1";
             this.Text = "Taco Town";
             this.ResumeLayout(false);
             this.PerformLayout();

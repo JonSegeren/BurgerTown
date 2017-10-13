@@ -16,7 +16,7 @@ namespace BurgerTown
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new taxOutput());
+            Application.Run(new form1());
         }
     }
 }
