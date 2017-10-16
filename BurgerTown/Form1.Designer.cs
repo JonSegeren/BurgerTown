@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
             this.tacoInput = new System.Windows.Forms.TextBox();
             this.burritoInput = new System.Windows.Forms.TextBox();
             this.fryInput = new System.Windows.Forms.TextBox();
@@ -272,6 +273,7 @@
             this.Controls.Add(this.fryInput);
             this.Controls.Add(this.burritoInput);
             this.Controls.Add(this.tacoInput);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "form1";
             this.Text = "Taco Town";
             this.ResumeLayout(false);
