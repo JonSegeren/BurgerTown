@@ -58,6 +58,7 @@
             this.tacoInput.Name = "tacoInput";
             this.tacoInput.Size = new System.Drawing.Size(72, 20);
             this.tacoInput.TabIndex = 1;
+            this.tacoInput.Text = "0";
             // 
             // burritoInput
             // 
@@ -65,6 +66,7 @@
             this.burritoInput.Name = "burritoInput";
             this.burritoInput.Size = new System.Drawing.Size(72, 20);
             this.burritoInput.TabIndex = 2;
+            this.burritoInput.Text = "0";
             // 
             // fryInput
             // 
@@ -72,6 +74,7 @@
             this.fryInput.Name = "fryInput";
             this.fryInput.Size = new System.Drawing.Size(72, 20);
             this.fryInput.TabIndex = 3;
+            this.fryInput.Text = "0";
             // 
             // changeInput
             // 
@@ -79,6 +82,7 @@
             this.changeInput.Name = "changeInput";
             this.changeInput.Size = new System.Drawing.Size(72, 20);
             this.changeInput.TabIndex = 6;
+            this.changeInput.Text = "0";
             // 
             // drinkInput
             // 
@@ -86,6 +90,7 @@
             this.drinkInput.Name = "drinkInput";
             this.drinkInput.Size = new System.Drawing.Size(72, 20);
             this.drinkInput.TabIndex = 4;
+            this.drinkInput.Text = "0";
             // 
             // tacoLabel
             // 

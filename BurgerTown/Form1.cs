@@ -128,7 +128,7 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " + (tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
             Thread.Sleep(300);
             tacog.Clear(Color.White);
 
@@ -137,8 +137,8 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " + (tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
-            tacog.DrawString("Drinks         " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Drinks          " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
             Thread.Sleep(1000);
             tacog.Clear(Color.White);
 
@@ -147,8 +147,8 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " + (tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
-            tacog.DrawString("Drinks         " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Drinks          " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
             tacog.DrawString("Subtotal       " + subTotal.ToString("C"), printFont, printBrush, 250, 125);
             Thread.Sleep(300);
             tacog.Clear(Color.White);
@@ -158,10 +158,10 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " +(tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
-            tacog.DrawString("Drinks         " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Drinks          " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
             tacog.DrawString("Subtotal       " + subTotal.ToString("C"), printFont, printBrush, 250, 125);
-            tacog.DrawString("Tax            " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
+            tacog.DrawString("Tax                " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
             Thread.Sleep(300);
             tacog.Clear(Color.White);
 
@@ -170,11 +170,11 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " + (tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
-            tacog.DrawString("Drinks         " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Drinks          " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
             tacog.DrawString("Subtotal       " + subTotal.ToString("C"), printFont, printBrush, 250, 125);
-            tacog.DrawString("Tax            " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
-            tacog.DrawString("Total          " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
+            tacog.DrawString("Tax               " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
+            tacog.DrawString("Total             " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
             Thread.Sleep(1000);
             tacog.Clear(Color.White);
 
@@ -183,11 +183,11 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " + (tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
-            tacog.DrawString("Drinks         " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Drinks          " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
             tacog.DrawString("Subtotal       " + subTotal.ToString("C"), printFont, printBrush, 250, 125);
-            tacog.DrawString("Tax            " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
-            tacog.DrawString("Total          " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
+            tacog.DrawString("Tax               " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
+            tacog.DrawString("Total             " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
             tacog.DrawString("Cash Tendered  " + cash.ToString("C"), printFont, printBrush, 250, 175);
             Thread.Sleep(300);
             tacog.Clear(Color.White);
@@ -197,13 +197,13 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " + (tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
-            tacog.DrawString("Drinks         " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Drinks          " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
             tacog.DrawString("Subtotal       " + subTotal.ToString("C"), printFont, printBrush, 250, 125);
-            tacog.DrawString("Tax            " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
-            tacog.DrawString("Total          " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
+            tacog.DrawString("Tax               " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
+            tacog.DrawString("Total             " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
             tacog.DrawString("Cash Tendered  " + cash.ToString("C"), printFont, printBrush, 250, 175);
-            tacog.DrawString("Change Due     " + change.ToString("C"), printFont, printBrush, 250, 190);
+            tacog.DrawString("Change Due       " + change.ToString("C"), printFont, printBrush, 250, 190);
             Thread.Sleep(1000);
             tacog.Clear(Color.White);
 
@@ -212,20 +212,20 @@ namespace BurgerTown
             tacog.DrawString("Tim's Taco Tavern", titleFont, printBrush, 240, 30);
             tacog.DrawString("Tacos          " + (tacos * TACO_PRICE).ToString("C"), printFont, printBrush, 250, 60);
             tacog.DrawString("Burritos       " + (burritos * BURRITO_PRICE).ToString("C"), printFont, printBrush, 250, 75);
-            tacog.DrawString("Fries          " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
-            tacog.DrawString("Drinks         " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
+            tacog.DrawString("Fries            " + (fries * FRY_PRICE).ToString("C"), printFont, printBrush, 250, 90);
+            tacog.DrawString("Drinks          " + (drinks * DRINK_PRICE).ToString("C"), printFont, printBrush, 250, 105);
             tacog.DrawString("Subtotal       " + subTotal.ToString("C"), printFont, printBrush, 250, 125);
-            tacog.DrawString("Tax            " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
-            tacog.DrawString("Total          " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
+            tacog.DrawString("Tax               " + taxTotal.ToString("C"), printFont, printBrush, 250, 140);
+            tacog.DrawString("Total             " + grandTotal.ToString("C"), printFont, printBrush, 250, 155);
             tacog.DrawString("Cash Tendered  " + cash.ToString("C"), printFont, printBrush, 250, 175);
-            tacog.DrawString("Change Due     " + change.ToString("C"), printFont, printBrush, 250, 190);
+            tacog.DrawString("Change Due       " + change.ToString("C"), printFont, printBrush, 250, 190);
             tacog.DrawString("Have a Great Day!",titleFont,printBrush,250,330);
 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //soundplayer setup... what is an easier way?
+            //soundplayer setup (X2) ... what is an easier way?
             SoundPlayer chaching = new SoundPlayer(Properties.Resources.Cha_Ching_Register_Muska666_173262285);
            
             //screen clearing
@@ -239,6 +239,10 @@ namespace BurgerTown
             fryInput.Text = "0";
             drinkInput.Text = "0";
             changeInput.Text = "0";
+            taxTotalLabel.Text = "0.00";
+            subTotalOut.Text = "0.00";
+            grandTotalOutput.Text = "0.00";
+            changeOutput.Text = "0.00";
         }
     }
 }
